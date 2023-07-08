@@ -1,0 +1,13 @@
+h1 {
+    color: #fef5f4;
+    font-size: large;
+    background-color: #7d1912;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid #411a0e;
+    padding: 10px;
+}
+h2 {
+background-image: url('img/LOGO-Baku.png') ;
+}
