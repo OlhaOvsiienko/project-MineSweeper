@@ -2,32 +2,47 @@ h1 {
     color: #fef5f4;
     font-size: large;
     background-color: #7d1912;
+    border-radius: 20px;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border: 2px solid #411a0e;
     padding: 10px;
+    margin-bottom: 0px;
 }
+
 .head__container {
     background-color: #76504d;
-    padding: 10px;
-    position: relative;
-    background-size: cover;
+    border-radius: 20px;
+    padding: 5px;
+    position: center center;
     margin-top: 0px;
-        }
-
-.head__container-title {
     color: #fef5f4;
-    font-size: 36px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
 }
-.head__container-img {
-    width: 300px;
-    height: 200px;
- margin-left: 100px;
- margin-top: -70px;
 
+.program__container {
+    background-color: #b2807aa9;
+    border-radius: 20px;
+    padding: 5px;
+    position: center center;
+    margin-top: 0px;
+    color: #fef5f4;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #363049, #ab200a);
+    
 }
+.program__container-list {
+    column-count: 2;
+    column-gap: 20px;
+    
+}
+ul {
+    text-align: left;
+}
+
