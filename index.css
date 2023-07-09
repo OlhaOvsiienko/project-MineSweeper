@@ -8,6 +8,26 @@ h1 {
     border: 2px solid #411a0e;
     padding: 10px;
 }
-h2 {
-background-image: url('img/LOGO-Baku.png') ;
+.head__container {
+    background-color: #76504d;
+    padding: 10px;
+    position: relative;
+    background-size: cover;
+    margin-top: 0px;
+        }
+
+.head__container-title {
+    color: #fef5f4;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.head__container-img {
+    width: 300px;
+    height: 200px;
+ margin-left: 100px;
+ margin-top: -70px;
+
 }
