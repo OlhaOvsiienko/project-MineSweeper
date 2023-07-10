@@ -24,25 +24,113 @@ h1 {
     margin-bottom: 0px;
 }
 
-.program__container {
+.program {
     background-color: #b2807aa9;
     border-radius: 20px;
     padding: 5px;
-    position: center center;
     margin-top: 0px;
+    margin-bottom: 0px;
     color: #fef5f4;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-image: linear-gradient(to right, #363049, #ab200a);
-    
-}
-.program__container-list {
-    column-count: 2;
-    column-gap: 20px;
-    
-}
-ul {
-    text-align: left;
+
 }
 
+.program__list {
+    column-count: 2;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.program__list ul {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.program__list-junior,
+.program__list-senior {
+    list-style-type: disc;
+    padding: 5 px;
+    text-align: left;
+    list-style-position: outside;
+}
+
+.photos {
+    background-color: #fce9e7;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0 px;
+    color: #7d1912;
+
+}
+
+.photos-row {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.results {
+    background-color: #fce9e7;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    color: #7d1912;
+}
+
+.results__list {
+    padding: 10px;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #7d1912;
+    flex: 1;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.results__list-senior,
+.results__list-junior {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #f3cdc9;
+    border-radius: 20px;
+}
+
+.voting {
+    align-: center;
+    background: #f3cdc9;
+    border-radius: 20px;
+    display: flex;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d1912;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.voting__title,
+.voting__form {
+    text-align: center;
+}
