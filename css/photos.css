@@ -1,0 +1,13 @@
+figure {
+    height: 300px;
+}
+figure image {
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.photos__row {
+    display: inline-flex;
+    justify-content: center;
+}
