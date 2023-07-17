@@ -1,0 +1,21 @@
+.program__container {
+    background-color: #b2807aa9;
+    border-radius: 20px;
+    padding: 5px;
+    position: center center;
+    margin-top: 0px;
+    color: #fef5f4;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #363049, #ab200a);
+    
+}
+.program__container-list {
+    column-count: 2;
+    column-gap: 20px;
+    
+}
+ul {
+    text-align: left;
+}
