@@ -10,8 +10,13 @@ img {
     width: 100%;
 }
 
-
+h {
+    font-size: 40px;
+}
 :root {
     --font-family: 'Poppins', sans-serif;
     --background-color: rgb(249, 242, 242);
+    --primary-color: rgb(163, 0, 0);
+    --background-image: linear-gradient(to right, rgb(39, 53, 65), rgb(169, 40, 39));
+    --secondary-color: #fef5f4;
 }

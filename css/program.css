@@ -1,21 +1,8 @@
-.program{
-    
-    border-radius: 20px;
-    padding: 5px;
-    position: center center;
-    margin-top: 0px;
-    color: #a71e0f;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+.program__title {
+    font-size: 32px;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
     text-align: center;
-    background-color: var(--background-color);
-    
-}
-.program__list {
-    column-count: 2;
-    column-gap: 20px;
-    
-}
-ul {
-    text-align: left;
+    background-image: var(--background-image);
+    margin-top: 10px;
 }
