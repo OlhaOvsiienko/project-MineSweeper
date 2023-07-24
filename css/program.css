@@ -5,6 +5,7 @@
     text-align: center;
     background-image: var(--background-image);
     margin-top: 10px;
+    margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -14,25 +15,25 @@
     flex: 1;
     align-items: stretch;
     justify-content: center;
-    column-gap: 20px;
-    padding: 10px;
+    column-gap: 10px;
+    padding: 5px;
     border: 5px solid rgb(17, 55, 224);
 }
 
 .senior-program,
 .junior-program {
-   
-    padding: 10px 40px 10px 40px;
+    padding: 10px 20px 10px 20px;
     display: flex;
     flex: 1;
     flex-direction: column;
-    align-items: stretch;
     border: 5px solid rgb(223, 184, 26);
 
 }
-.senior-title, 
+
+.senior-title,
 .junior-title {
     justify-content: center;
+    align-items: center;
     color: var(--secondary-color);
     border: transparent;
     background-image: var(--background-image);
@@ -40,18 +41,17 @@
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
-    flex-wrap: wrap;
-      
+
 }
 
 .senior-card,
 .junior-card {
     display: flex;
     flex-direction: row;
-   flex-wrap: wrap;
-   flex-basis: 100%;
-    column-gap: 20px;
+    flex-basis: 100%;
+    column-gap: 10px;
     align-items: stretch;
+    justify-content: center;
     background-color: var(--background-color);
     border: 5px solid green;
 
@@ -61,6 +61,60 @@
     border: 5px solid var(--primary-color);
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: center;
 
+}
+
+
+
+@media (max-width: 768px) {
+
+    .program-conteiner,
+    .senior-program,
+    .junior-program,
+    .senior-card,
+    .junior-card,
+    .card {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.card-body {
+    border: 5px solid pink;
+    color: var(--primary-color);
+    position: relative;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    display: flex;
     
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+
+
+}
+
+.btn {
+position: absolute;
+margin-bottom: 10px;
+bottom: 0px;
+
+    background-image: var(--background-image);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
