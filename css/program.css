@@ -115,10 +115,10 @@
 .btn {
     background-image: var(--background-image);
     border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    
     color: var(--secondary-color);
     border-color: transparent;
+    
 
 
     /*position: absolute;
